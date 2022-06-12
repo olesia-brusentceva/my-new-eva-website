@@ -6,6 +6,8 @@ title: "Olesia Brusentceva"
 
 Hello!
 
+I\`m gonna to create the new branch called 'dev_1'
+
 My name is Lesia. I am undergrad student of math department.
 
 In this summer school I would like:
