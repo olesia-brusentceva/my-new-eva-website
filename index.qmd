@@ -8,6 +8,8 @@ Hello!
 
 My name is Lesia. I am undergrad student of math department.
 
+I\`m gonna to create a grate proj.
+
 In this summer school I would like:
 
 1.  to practice in basic R and up great my skills.
