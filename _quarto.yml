@@ -1,14 +1,24 @@
 project:
   type: website
   output-dir: docs
+  #preview:
+  # port:
 
 website:
-  title: "-Brusentceva Olesia-"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  sidebar:
+    title: "TITLE"
+    style: "docked"
+    contents:
+      - section: "Section 1"
+        contents:
+          - index.qmd
+          - basics-knitr.qmd
+          - basics-jupyter.qmd
+      - section: "Section 2"
+        contents:
+          - index2.qmd
+          - layout-knitr.qmd
+          - layout-jupyter.qmd
 
 format:
   html:
