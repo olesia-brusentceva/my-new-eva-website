@@ -8,6 +8,8 @@ Hello!
 
 I\`m gonna to create the new branch called 'dev_1'
 
+Done! Next is to create a merge request.
+
 My name is Lesia. I am undergrad student of math department.
 
 In this summer school I would like:
