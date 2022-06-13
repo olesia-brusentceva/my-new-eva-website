@@ -5,5 +5,19 @@
     "title": "About Me",
     "section": "",
     "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About the reason",
+    "section": "",
+    "text": "(Photo)\n\nlibrary(readxl)\ndf <- (\"Ukraine_Black_Sea_2020_2022_Jun03.xlsx\")"
+  },
+  {
+    "objectID": "target.html",
+    "href": "target.html",
+    "title": "About the target",
+    "section": "",
+    "text": "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM"
   }
 ]

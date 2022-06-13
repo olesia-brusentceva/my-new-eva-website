@@ -5,14 +5,20 @@ project:
   # port:
 
 website:
+  navbar:
+     title: "Politically important events on the territory of Ukraine"
+     untitle: "Resurche of Brusentceva Olesia"
+     background: MediumSlateBlue
+     type: important
+    
   sidebar:
     title: "TITLE"
     style: "docked"
     contents:
-      - section: "Section 1"
+      - section: "Introdaction"
         contents:
           - index.qmd
-          - basics-knitr.qmd
+          - target.qmd
           - basics-jupyter.qmd
       - section: "Section 2"
         contents:

@@ -1,5 +1,16 @@
 ---
-title: "Smth about the war 1"
+title: "About the reason"
 ---
 
-------------------------------------------------------------------------
+> ::: {#div_1 style="font-style: normal;    font-size:25px;"}
+> Now we are living during a full-scale invasion of the Russian army into the territory of Ukraine, however, the war did not start on February 24, 2022, but much earlier. For the first time, the occupying troops entered Ukraine at the end of February 2014. Symbolic, right?
+> :::
+
+(Photo)
+
+```{r }
+library(readxl)
+df <- ("Ukraine_Black_Sea_2020_2022_Jun03.xlsx")
+LAT <- df$"LATITUDE"
+LAG <- df$"LONGITUDE"
+```
