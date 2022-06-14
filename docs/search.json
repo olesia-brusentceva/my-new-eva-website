@@ -11,13 +11,20 @@
     "href": "index.html",
     "title": "About the reason",
     "section": "",
-    "text": "(Photo)\n\nlibrary(readxl)\ndf <- (\"Ukraine_Black_Sea_2020_2022_Jun03.xlsx\")"
+    "text": "(Photo)\n\nlibrary(readxl)\nlibrary(ggplot2)\ndf <- read_excel(\"C:/Users/User/Downloads/Ukraine_Black_Sea_2020_2022_Jun03.xlsx\")\n#View(Ukraine_Black_Sea_2020_2022_Jun03)\nLAT <- df$\"LATITUDE\"\nLAG <- df$\"LONGITUDE\"\n\nggplot(df, aes(x = LAG, y = LAT)) + \n  geom_point(size = 0.5,colour = \"purple\") + \n  coord_equal() + \n  xlab('Longitude') + \n  ylab('Latitude')"
   },
   {
     "objectID": "target.html",
     "href": "target.html",
     "title": "About the target",
     "section": "",
-    "text": "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM"
+    "text": "Smth about the target of my investigation"
+  },
+  {
+    "objectID": "territory.html",
+    "href": "territory.html",
+    "title": "Violence against territory",
+    "section": "",
+    "text": "Smth about the Violence on the territory of Ukraine."
   }
 ]

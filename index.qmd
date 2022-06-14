@@ -10,7 +10,15 @@ title: "About the reason"
 
 ```{r }
 library(readxl)
-df <- ("Ukraine_Black_Sea_2020_2022_Jun03.xlsx")
+library(ggplot2)
+df <- read_excel("C:/Users/User/Downloads/Ukraine_Black_Sea_2020_2022_Jun03.xlsx")
+#View(Ukraine_Black_Sea_2020_2022_Jun03)
 LAT <- df$"LATITUDE"
 LAG <- df$"LONGITUDE"
+
+ggplot(df, aes(x = LAG, y = LAT)) + 
+  geom_point(size = 0.5,colour = "purple") + 
+  coord_equal() + 
+  xlab('Longitude') + 
+  ylab('Latitude')
 ```

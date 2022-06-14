@@ -20,10 +20,10 @@ website:
           - index.qmd
           - target.qmd
           - basics-jupyter.qmd
-      - section: "Section 2"
+      - section: "Millitary events"
         contents:
           - index2.qmd
-          - layout-knitr.qmd
+          - territory.qmd
           - layout-jupyter.qmd
 
 format:
